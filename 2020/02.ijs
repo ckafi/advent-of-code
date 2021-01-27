@@ -1,4 +1,5 @@
-example =: '1-3 a: abcde', '1-3 b: cdefg',: '2-9 c: ccccccccc'
+NB. input =: '1-3 a: abcde', '1-3 b: cdefg',: '2-9 c: ccccccccc'
+
 input =: > LF cut 1!:1 <'02.input'
 
 check_pwd_1 =: monad define
